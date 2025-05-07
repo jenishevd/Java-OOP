@@ -8,18 +8,31 @@ public class InnerClasses {
             this.name = name;
         }
 
+        @Override
+        public String toString() {
+            return name;
+        }
+
     }
 
     public static void main(String[] args) {
         Test a = new Test("daniiar");
         Test b = new Test("rahul");
 
-        System.out.println(a.name);
-        System.out.println(b.name);
+        System.out.println(a);
+        System.out.println(b);
     }
 }
 
-// static class A {}
 
-// Inner Classes
-// 
+/*
+Inner Classes
+Used to logically group classes that belong together and to increase encapsulation.
+
+Added @overrid.... to print new obj correctly, the name, not the hexcode
+
+
+ */
+
+
+

@@ -29,4 +29,9 @@ public class Lesson02_Main {
     void greeting(){
         System.out.println("Hello World!");
     }
+
+    Singleton obj = Singleton.getInstance();
+    Singleton obj2 = Singleton.getInstance();
+    Singleton obj3 = Singleton.getInstance();
+    //all 3 ref vars are pointing to just one object
 }
