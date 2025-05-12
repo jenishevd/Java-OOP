@@ -28,6 +28,8 @@ public class Lesson03_Main {
         BoxPrice box = new BoxPrice(2, 3, 200 );
         System.out.println(box);
 
+        Lesson lesson = new Lesson();
+
     }
 }
 

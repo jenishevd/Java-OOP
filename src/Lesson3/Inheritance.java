@@ -7,10 +7,8 @@ class Box{
     double l;
     double h;
     double w;
-    //double weight;
 
     Box() {
-
         this.h = -1;
         this.l = -1;
         this.w = -1;
@@ -104,3 +102,24 @@ class will become a parent class for another new class. Box => Box Weight => Box
 - Multiple Inheritance - A class implements multiple inferfaces
 - Hybrid Inheritance - A combination of more than one type of Inheritance
  */
+
+class Lesson{
+    String name;
+    String surname;
+
+    Lesson(){
+        System.out.println("Constructor is called");
+        this.name = "Java";
+    }
+
+    Lesson(String surname){
+        System.out.println("Constructor with one parameter is called");
+        this.surname = surname;
+    }
+
+    Lesson(int a, int b){
+        System.out.println("Constructor with two parameters is called");
+        System.out.println("a = " + a + ", b = " + b);
+    }
+
+}
