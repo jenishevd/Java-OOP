@@ -3,6 +3,9 @@
  */
 package Lesson3;
 
+import Lesson3.BoxPrice;
+import Lesson3.Lesson;
+
 public class Lesson03_Main {
     public static void main(String[] args) {
 //        Box box = new Box(32, 90, 55);
@@ -25,10 +28,15 @@ public class Lesson03_Main {
         //BoxWeight box6 = new Box(); // box has no idea about var weight, => error
         //System.out.println(box6);
 
-        BoxPrice box = new BoxPrice(2, 3, 200 );
-        System.out.println(box);
+//        BoxPrice box = new BoxPrice(2, 3, 200 );
+//        System.out.println(box);
+//
+//        Lesson lesson = new Lesson();
+        Box box1 = new Box(4.5, 3.4, 2.9);
+        //Box.greeting();
 
-        Lesson lesson = new Lesson();
+        Box box = new BoxWeight();
+        box.greeting();
 
     }
 }
